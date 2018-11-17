@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50px">
+        <TableRow
+            android:layout_margin="5dp">
+            <TextView
+                android:text="미세먼지 (㎍/㎥)  "/>
+            <TextView
+                android:id="@+id/txt_row_1_0"
+                android:text=""/>
+        </TableRow>
+        <TableRow
+            android:layout_margin="5dp">
+            <TextView
+                android:text="초미세먼지 (㎍/㎥)  "/>
+            <TextView
+                android:id="@+id/txt_row_1_1"
+                android:text=""/>
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
