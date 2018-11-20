@@ -27,7 +27,7 @@ public class Location1 extends AppCompatActivity{
         Calendar cal = Calendar.getInstance();
         int a = cal.get(Calendar.YEAR);
         int b = cal.get(Calendar.MONTH) + 1;
-        int c = cal.get(Calendar.DATE);
+        int c = cal.get(Calendar.DATE) + 1;
         str_day = "" + Integer.toString(a) + Integer.toString(b) + Integer.toString(c);
         Log.d("THIS_IS_WORLD","READ_ " + str_day);
         Intent it = getIntent();
