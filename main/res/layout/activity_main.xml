@@ -40,7 +40,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="조회"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:onClick="Onclick"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -68,7 +69,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="조회"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:onClick="Onclick"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -81,7 +83,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="HW2-2"/>
+                android:text="HW2-2"
+                android:onClick="Onclick"/>
         </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
